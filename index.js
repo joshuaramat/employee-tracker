@@ -1,16 +1,9 @@
 // dependencies
 const inquirer = require('inquirer');
-const consoleTable = require('console.table');
-const mysql = require('mysql2');
-const mysqlConnection = mysql.createConnection({
-    host: 'localhost',
-    port: 3306,
-    user: 'root',
-    password: 'Daedalus21!',
-    database: 'employee_db'
-})
+const connection = require('./db/connection');
+const db = require('./db/connection');
 
-mysqlConnection.connect((err) => {
+db.connect((err) => {
     if (err) throw err;
     inquirerPrompts();
 })
