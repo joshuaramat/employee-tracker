@@ -1,5 +1,3 @@
-DROP DATABASE IF EXISTS employee_db;
-
-CREATE DATABASE employee_db;
-
-USE employee_db;
+DROP DATABASE IF EXISTS employee_manager;
+CREATE DATABASE employee_manager;
+USE employee_manager;

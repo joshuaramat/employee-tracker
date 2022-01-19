@@ -1,5 +1,3 @@
-SET GLOBAL FOREIGN_KEY_CHECKS=0;
-
 INSERT INTO department (name)
 VALUES
 ('Branch Management'),
