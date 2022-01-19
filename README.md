@@ -10,7 +10,7 @@ A command line application to manage a company's employee database.
 3. Run 'node index' to run the server
 
 ## Demo
-[Live Demo] (./Assets/media/MySQL-Challenge-Demo)
+[Live Demo Video]{https://youtu.be/ot7DkWRjWrk}
 
 ## Built With
 * Node.js
